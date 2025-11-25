@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>small step — Works</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===========================
+       HEADER
+       - 로고 및 상단 네비게이션
+  ============================ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Park BaHyo</div>
+      <nav class="main-nav">
+        <a href="#">About</a>
+        <a href="#">Works</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===========================
+       SECTION 1: HERO + 12 GRID
+       - 12개의 이미지 (4cols x 3rows)
+       - 가운데(2행, 2~3열) 텍스트 박스 배치
+  ============================ -->
+  <section class="hero-grid">
+    <div class="container">
+      <h1 class="hero-title">A Small Step Towards<br/>Big Change.</h1>
+      <p class="subtitle">Recent Projects</p>
+
+      <div class="grid-12">
+        <!-- row1 -->
+        <div class="grid-item"><img src="/image/apple.png" alt="project 1"></div>
+        <div class="grid-item"><img src="/image/battery3.png" alt="project 2"></div>
+        <div class="grid-item"><img src="/image/card.png" alt="project 3"></div>
+        <div class="grid-item"><img src="/image/gpt.png" alt="project 4"></div>
+
+        <!-- row2 -->
+        <div class="grid-item"><img src="/image/web page.png" alt="project 5"></div>
+
+        <!-- CENTER TEXT BOX (가로 2열 차지) -->
+        <div class="grid-textbox">
+          <h2>BAHYO</h2>
+          <p class="text-sub">Project portfolio</p>
+        </div>
+        
+
+        <div class="grid-item"><img src="/image/pokemon.png" alt="project 6"></div>
+
+        <!-- row3 -->
+        <div class="grid-item"><img src="/image/play list.png" alt="project 7"></div>
+        <div class="grid-item"><img src="/image/subway.png" alt="project 8"></div>
+        <div class="grid-item"><img src="/image/boarding pass.png" alt="project 9"></div>
+        <div class="grid-item"><img src="/image/boarding pass2.png" alt="project 10"></div>
+      </div>
+
+      <div class="more-wrap">
+        <button class="btn-more">더보기</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       SECTION 2: SPLIT INFO + HERO IMAGE
+       - 주요 텍스트(제목+설명)과 큰 비주얼 영역
+       - 비주얼 중앙에 메인 텍스트 오버레이 (항상 표시)
+  ============================ -->
+  <section class="split-section">
+    <div class="container split-inner">
+      <div class="split-left">
+        <h3>아주 작은 한 걸음의 시작,<br/>스몰스텝</h3>
+        <p>
+          스몰스텝은 아주 작지만 정확한 한 발을 내딛습니다.
+          고객사와 함께 빠른 완주를 위한 한 걸음 한 걸음을 나아갑니다.
+        </p>
+      </div>
+
+      <div class="split-right">
+        <div class="visual">
+          <img src="/image/kamen.png" alt="main visual">
+          <div class="visual-overlay">
+            <h2 class="visual-title">A Small Step Towards<br/>Big Change.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       SECTION 3: OVERLAY PROJECT ROW
+       - 이미지 위에 항상 보이는 텍스트 (굵게)
+       - 텍스트는 contrast / shadow 로 가독성 확보
+  ============================ -->
+  <section class="overlay-projects">
+    <div class="container">
+      <h4 class="projects-heading">365 Days 24 Hours</h4>
+      <h4 class="projects-bottom">We are Ready to Step.</h4>
+      <div class="overlay-grid">
+        <div class="overlay-card">
+          <img src="/image/mob.jpg" alt="p1">
+          <div class="overlay-label">캐릭터 생성</div>
+        </div>
+
+        <div class="overlay-card">
+          <img src="/image/aman.png" alt="p2">
+          <div class="overlay-label">LOST ARK</div>
+        </div>
+
+        <div class="overlay-card">
+          <img src="/image/wagle_character_only.png" alt="p3">
+          <div class="overlay-label">Wagle</div>
+        </div>
+
+        <div class="overlay-card">
+          <img src="/image/mococo.png" alt="p4">
+          <div class="overlay-label">Mococo</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       FOOTER
+  ============================ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="contact-note">
+        우리는 해낼 수 있습니다. 저는 더 열심히 해야겠지만 힘내겠습니다.
+      </div>
+      <div class="copyright">2025 © small step studio</div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
